@@ -50,5 +50,3 @@ class Admin::JobsController < ApplicationController
         params.require(:job).permit(:title, :description)
       end
     end
-
-end
